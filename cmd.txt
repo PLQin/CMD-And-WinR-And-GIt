@@ -1,0 +1,36 @@
+
+
+
+查看C盘的文件:	cd c:\windows
+目录下  dir  :  显示该目录的详细信息
+(子文件|夹) dir	: 	显示子文件(夹)的粗略信息
+type 在cmd中查看文件内部的信息
+
+
+一、shell命令(shell命令指的是按下win健--搜索程序及文件处,也就是win+R)
+
+	shell:command 打开各种外壳文件夹
+	shell:Common document 共享文档
+	shell:ConnectionsFolder 网络连接
+	shell:ControlPanelFolder 控制面板
+	shell:Cookies Cookies
+	shell:Desktop 桌面
+	shell:DriveFolder 我的电脑
+	shell:Favorites 收藏夹
+	shell:NetworkFolder 网上邻居
+	shell:Personal 我的文档
+	shell:RecycleBinFolder 回收站
+	shell:SendTo “发送到”
+	shell:Startup 开始菜单-启动
+	shell:System 系统文件夹
+	shell:Windows Windows文件夹
+	可以直接搜索路径
+		C:\Users\admin\Desktop 
+
+二丶start + 路径
+	start d:\ 可以打开D盘窗口
+	
+
+三丶其他
+ipconfig /flushdns
+	window IP配置,刷新DNS解析缓存

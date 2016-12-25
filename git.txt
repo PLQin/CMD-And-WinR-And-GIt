@@ -1,0 +1,112 @@
+
+小白git shell流程
+	git add 文件全名包括后缀
+	git commit
+	自动进入记事本编辑注释summery
+	写入注释后保存关闭
+	git push
+
+
+
+github 中 git shell常用指令:
+
+cd ../  上级文件夹
+cd desktop 去到桌面
+git pull 取回远程主机某个分支的更新,再与本地指令分支合并(此步骤应在git add之前)
+git status 查看当前代码库状态
+git add -A 将当前代码库中所有变化文件添加至暂存区(旧版中使用git add .)
+git add -am : 将所有变化(已加入暂存区和未加入暂存区的变化)都提交
+git commit -m /*注释内容*/
+git reflog 查看所有分支的所有操作记录(包括commit和reset的操作,包括已被删除的commit记录)
+git log 不能查看已被删除的commit记录
+
+
+查看文件 :ls -Fore 查看包含隐藏文件的全部文件
+创建文件夹(当前文件下) :mkdir 文件名
+修改文件夹 :mv 原文件名 新文件名
+创建文件 :touch 文件名加后缀
+查看文件里的内容 :cat 文件名包含后缀
+删除文件或者文件夹 :rm 文件名或文件夹
+查看网页的代码 :curl url地址
+下载网页的内容 :curl -o 保存的文件名(带后缀) 浏览器url地址
+
+
+在命令行中新建代码库(此时应该在远程代码库中)
+	git branch 2.0 		创建2.0分支(不输参数为查看分支)
+	git checkout 2.0    前往2.0分支
+	rm *:删除所有
+	master :	 主干分支
+	merge: master merge 2.0 将主干分支与2.0合并,显示在主干分支; 2.0还在;
+	git push origin master: 将变化推送至主分支
+	git push -u origin 2.0:将2.0分支推送到远程仓库
+
+
+本地创建远程代码库(创建空的代码库)
+	1 git init 初始化
+	2 (给本地文件夹添加内容后,使用mkdir或touch指令)git add */-A   //更新文件
+	3 git commit -m ''  //提交更新，并注释信息“first commit” 
+	4 git remote add origin 远程地址 (远程地址应被双引号包裹)  //连接远程github项目  
+	5 git push -u origin master //将本地项目更新到github项目上去
+
+
+git add *
+git add --a
+git add -A
+git add .
+都是指全部文件
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
