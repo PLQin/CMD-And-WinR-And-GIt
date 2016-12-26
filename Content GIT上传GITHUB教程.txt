@@ -43,6 +43,10 @@ $ git push origin master
 git push命令会将本地仓库推送到远程服务器。
 git pull命令则相反。
 
+8) 将远程仓库更新到本地
+$ git pull origin master
+
+
 
 gitignore文件
 .gitignore顾名思义就是告诉git需要忽略的文件，这是一个很重要并且很实用的文件。一般我们写完代码后会执行编译、调试等操作，这期间会产生很多中间文件和可执行文件，这些都不是代码文件，是不需要git来管理的。我们在git status的时候会看到很多这样的文件，如果用git add -A来添加的话会把他们都加进去，而手动一个个添加的话也太麻烦了。这时我们就需要.gitignore了。
@@ -166,5 +170,6 @@ git remote set-head origin master # 设置远程仓库的HEAD指向master分支
 也可以命令设置跟踪远程库和本地库
 git branch --set-upstream master origin/master
 git branch --set-upstream develop origin/develop
+
 
 
