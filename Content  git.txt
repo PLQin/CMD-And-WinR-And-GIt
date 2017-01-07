@@ -9,9 +9,11 @@
 	写入注释后保存关闭
 	git push
 
-Git远程操作详解
+Git远程操作详解(邧一峰)
 	http://www.ruanyifeng.com/blog/2014/06/git_remote.html
- Git pull 强制覆盖本地文件
+网友详细教程 
+	http://www.yiibai.com/git/
+Git pull 强制覆盖本地文件
  	git fetch --all  
 	git reset --hard origin/master 
 	git pull
