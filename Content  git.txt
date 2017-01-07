@@ -15,7 +15,8 @@ Git远程操作详解
  	git fetch --all  
 	git reset --hard origin/master 
 	git pull
-
+ 
+ 
 github 中 git shell常用指令:
 
 cd ../  上级文件夹
