@@ -9,7 +9,12 @@
 	写入注释后保存关闭
 	git push
 
-
+Git远程操作详解
+	http://www.ruanyifeng.com/blog/2014/06/git_remote.html
+ Git pull 强制覆盖本地文件
+ 	git fetch --all  
+	git reset --hard origin/master 
+	git pull
 
 github 中 git shell常用指令:
 
