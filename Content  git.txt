@@ -13,8 +13,9 @@
 
 
 
- 教程 http://www.yiibai.com/git/
-
+ 教程 
+ 1 http://www.yiibai.com/git/
+ 2 http://blog.csdn.net/luckyyulin/article/details/21090905
 
 
 小白git shell流程
